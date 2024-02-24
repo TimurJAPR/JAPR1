@@ -14,3 +14,14 @@ if __name__ == '__main__':
     print_hi('PyCharm')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
+print("Task1");
+room = int(input());
+if  (1 <= room) and (room <=8):
+    print ('first padik');
+if (9<= room) and (room <= 16):
+        print ('second padik');
+if (17 <= room) and (room <= 24):
+    print('third padik');
+    if (25 <= room) and (room <= 32):
+        print('fourth padik');
+
